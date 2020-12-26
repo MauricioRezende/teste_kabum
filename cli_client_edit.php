@@ -35,7 +35,7 @@ while($row = mysqli_fetch_assoc($result)) {
 
 <div style="padding-left: 5%; padding-right: 5%;">
 	<div class="center-align" >
-		<h3>Editar cliente</h3>
+		<h3>Alterar dados</h3>
 	</div>
 	<form class="col s12" method="POST" action="">
 		<div class="row">
