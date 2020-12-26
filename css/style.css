@@ -1,0 +1,110 @@
+@font-face {
+     font-family: Ubuntu-Regular;
+     src: url('../font/Ubuntu-Regular.ttf');
+     width: 100%;
+}
+
+html{
+	font-family: Ubuntu-Regular;
+}
+
+header, body {
+	padding-left: 270px;
+	background: linear-gradient(100deg,rgba(238,244,255,0) .47%,rgba(84,110,164,.2) 99.53%);
+}
+
+button:disabled {
+  background: #dddddd;
+}
+
+#nav-menu{
+	display: none;
+}
+
+@media only screen and (max-width : 992px) {
+	header, main, footer, body{
+		padding-left: 0;
+	}
+	#nav-menu{
+		display: block;
+	}
+}
+
+.sidenav{
+	background: linear-gradient(90deg,#f35a0b -6.55%,#fd951e 93.45%);
+	/* color:  white; */
+	width: 270px;
+}
+
+.sidenav li>a {
+	color:  white;
+}
+
+nav{
+	background-color: #2a6ca6;
+}
+
+.btn{
+	background: linear-gradient(0deg,#f25200 17%,#ff7630 49%,#ff8d05 54%,#ff9605 95%);
+	font-weight: bolder;
+}
+
+.material-icons{
+	color: #f25200;
+}
+
+.input-field input[type=text]:focus{
+	border-bottom:1px solid #ff9605 !important;
+    box-shadow: 0 1px 0 0 #ff9605 !important;
+}
+
+.input-field input[type=password]:focus{
+	border-bottom:1px solid #ff9605 !important;
+    box-shadow: 0 1px 0 0 #ff9605 !important;
+}
+
+.input-field input[type=number]:focus{
+	border-bottom:1px solid #ff9605 !important;
+    box-shadow: 0 1px 0 0 #ff9605 !important;
+}
+
+.input-field textarea:focus{
+	border-bottom:1px solid #ff9605 !important;
+    box-shadow: 0 1px 0 0 #ff9605 !important;
+}
+
+.swal-button--cancel {
+    color: white;
+    background-color: gray !important;
+}
+
+.swal-button--danger {
+    background-color: #f25200 !important;
+}
+
+.swal-button{
+	background-color: #f25200 !important;
+}
+
+td, th {
+    padding: 7px 5px;
+}
+
+.modal{
+	border: solid 2px gray;
+	border-radius: 20px 0px 0px 20px;
+}
+
+.breadcrumb:hover{
+	color: white;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #f25200;
+}
+::-webkit-scrollbar-track {
+    background: #bdbdbd;
+}
