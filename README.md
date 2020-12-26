@@ -15,14 +15,21 @@ Se um usuário tentar acessar uma página exclusiva de outro perfil sua sessão 
 Para o cadastro de cliente o preenchimento dos campos estão sendo validados tanto no front-end quanto no back-end.
 
 O usuário de perfil administrador pode:
+
 -Alterar sua senha;
+
 -Visualizar os clientes cadastrados;
+
 -Cadastrar, editar e excluir um cliente;
+
 -Cadastrar, editar e excluir endereços de um cliente.
 
 O usuário de perfil cliente pode:
+
 -Alterar sua senha;
+
 -Alterar seus dados cadastrados;
+
 -Cadastrar, editar e excluir endereços.
 
 O cadastro de cliente por ser feito pelo próprio cliente ou por um usuário administrador.
